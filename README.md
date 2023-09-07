@@ -1,57 +1,9 @@
-# base
+La aplicación es una aplicación web desarrollada con Vue.js, un marco de trabajo de JavaScript progresivo. Esta aplicación tiene tres principales características o páginas:
 
-## Project setup
+Página de Inicio (Home): Esta página principal puede ser la página de bienvenida de la aplicación. Puede personalizarse para mostrar contenido relevante o información general sobre la aplicación.
 
-```
-# yarn
-yarn
+Página de Imagen (Imagen): En esta página, se muestra una tarjeta con una imagen que puede cambiar cuando se hace clic en el botón "Explore". La imagen se carga de forma dinámica desde una URL externa.
 
-# npm
-npm install
+Página de Tabla (Table): En esta página, se muestra una tabla que contiene datos de publicaciones obtenidos de una API externa llamada JSONPlaceholder. Cada fila de la tabla representa una publicación y, al hacer clic en una fila, se muestra un menú emergente con opciones para editar o eliminar esa publicación.
 
-# pnpm
-pnpm install
-```
-
-### Compiles and hot-reloads for development
-
-```
-# yarn
-yarn dev
-
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-```
-
-### Compiles and minifies for production
-
-```
-# yarn
-yarn build
-
-# npm
-npm run build
-
-# pnpm
-pnpm build
-```
-
-### Lints and fixes files
-
-```
-# yarn
-yarn lint
-
-# npm
-npm run lint
-
-# pnpm
-pnpm lint
-```
-
-### Customize configuration
-
-See [Configuration Reference](https://vitejs.dev/config/).
+La aplicación utiliza Vue Router para la navegación entre estas tres páginas. Además, hace uso de componentes de Vue.js para organizar el código y la lógica de presentación en cada página.
